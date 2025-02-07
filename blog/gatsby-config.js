@@ -16,10 +16,17 @@ module.exports = {
     contact: {
       name: `Victor Bravo`,
       company: `Blogs Inc.`,
-      address: `PD Box 1234`
-    }
+      address: `PD Box 1234`,
+    },
   },
   plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `rafdflz4lvb8`,
+        accessToken: `MVybXvkwvJiTlGQrqCTsvZzoJV15ZWxGA7djEC1XBR4`,
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
