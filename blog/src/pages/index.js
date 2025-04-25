@@ -28,7 +28,7 @@ const IndexPage = ({data}) => (
           <Card key={edge.node.id}>
             <Link to={edge.node.slug}>
               <GatsbyImage
-                image={edge.node.heroImage.gatsbyImageData}
+                image={edge.node.hero.gatsbyImageData}
               />
             </Link>
             <Heading>
